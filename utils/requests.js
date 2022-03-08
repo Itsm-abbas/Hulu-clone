@@ -1,4 +1,4 @@
-const API_KEY='aaaedb82ded8a7be31a36c4c3a72686c';
+const API_KEY=process.env.HULU_API_KEY;
 export default {
   fetchTrending: {
     title: "Trending",
